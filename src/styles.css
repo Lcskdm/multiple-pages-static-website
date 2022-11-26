@@ -1,0 +1,16 @@
+:root {
+  --w12-color: #567890;
+  --w12-font-family: monospace;
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  max-width: 800px;
+  background: lightgrey;
+  text-align: center;
+}
