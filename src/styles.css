@@ -1,16 +1,65 @@
 :root {
   --w12-color: #567890;
-  --w12-font-family: monospace;
+  --w12-font-family: sans-serif;
 }
 
 body {
   text-align: center;
+  background: lightgrey;
+  font-family: var(--w12-font-family);
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-.container {
-  display: block;
+h1 {
+  margin-bottom: -10px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+p {
+  margin-top: 40px;
+}
+
+img {
   justify-content: center;
-  max-width: 800px;
-  background: lightgrey;
-  text-align: center;
+  max-width: 80%;
+  border-radius: 4px;
+}
+
+a {
+  color: #567890;
+  text-decoration: none;
+}
+a:hover {
+  color: #3e5768;
+  text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 12px;
+  font-weight: 100;
+  color: grey;
+}
+
+.navigation {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navigation a {
+  padding: 10px;
 }
